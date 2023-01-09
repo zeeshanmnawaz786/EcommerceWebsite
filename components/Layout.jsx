@@ -19,10 +19,10 @@ export default function Layout({ title, children }) {
             </Link>
             <div className="flex mt-1">
               <Link href="/">
-                <span>Cart</span>
+                <span className="mx-2">Cart</span>
               </Link>
               <Link href="/">
-                <span>Login</span>
+                <span className="mx-2">Login</span>
               </Link>
             </div>
           </nav>
@@ -31,7 +31,7 @@ export default function Layout({ title, children }) {
 
         {/* ====== Main Start ======== */}
 
-        <main className="h-screen px-4 pt-4 bg-slate-200">{children}</main>
+        <main className=" px-4 pt-4 bg-slate-200">{children}</main>
 
         {/* ====== Main End ======== */}
 
